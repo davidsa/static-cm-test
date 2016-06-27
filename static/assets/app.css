@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+.banner {
+    width: 100%;
+}
+.main-container {
+    overflow: auto;
+}
+.main-container * {
+    float: left;
+    width: 33.33333%;
+}
