@@ -6,8 +6,15 @@ body {
 }
 .main-container {
     overflow: auto;
+    margin: 0;
 }
-.main-container * {
+.main-container>img, .main-container>a {
     float: left;
     width: 33.33333%;
+}
+.main-container>img {
+    height: 600px;
+}
+.wrap {
+    width: 100%;
 }
